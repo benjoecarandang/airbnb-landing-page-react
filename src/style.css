@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #cdd4d4;
+}
+
+#root {
+  padding-top: 50px;
+}
+
+.text-gray {
+    color: #918E9B;
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+.App {
+  width: 550px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nav {
+  width: 550px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.nav--logo {
+  width: 80px;
+  height: 25px;
+  margin: 10px 20px;
+}
+
+section {
+  padding: 30px 25px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  font-weight: lighter;
+  max-width: 340px;
+}
+
+.hero--image {
+  width: 100%;
+  max-width: 500px;
+  align-self: center;
+}
+
+.online-experience {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 176px;
+  font-size: 12px;
+  flex: 0 0 auto;      
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 2px;
+}
+
+.card--star {
+  height: 10px;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  background-color: white;
+  padding: 4px 7px;
+  border-radius: 4px;
+  font-weight: bold;
+}
